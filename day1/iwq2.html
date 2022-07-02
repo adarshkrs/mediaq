@@ -1,0 +1,110 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+      *{
+        margin:0;
+        padding:0;
+      }
+  /* #h1{
+    text-align: center;
+    width: 60px;
+    margin:auto;
+    
+  }
+     #h1+p{
+    width:50px;
+    margin:0 auto;
+    text-align: center;
+    margin-top:25px; 
+
+  }  */
+    #container{
+        display:grid;
+         grid-template-columns: repeat(3,1fr);
+         grid-template-rows: repeat(400px); 
+         grid:20px;
+         width:80%;
+         margin:auto;
+          margin-top:20%;
+          gap: 60px;
+         
+       
+        
+    }
+    #container>div{
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        text-align: center;
+    }
+       
+       #adarsh{
+        background-color:blue;
+        color:white;
+        border:0px;
+        font-size:18px;
+        padding:10px 20px;
+        border-radius:10px;
+      } 
+    #aniket{
+        /* text-align:center; */
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 20%;
+        border:1px solid red;
+        overflow-x: hidden;
+        margin-top:5%;
+        padding:10px;
+         
+    }
+     /* #y{
+        text-align:center;
+        width:90%;
+
+     
+    }  */
+    
+ 
+
+    </style>
+  
+   </head>
+   <body>
+    <div id="aniket">
+        <h1>choose a plan that  right for your bussiness </h1>
+        <p>we collect review from our users so you can get an honest opinion
+        of what an experience with our website are really like!</p>
+    </div>
+       
+       
+   <div id="container">
+    
+   <diV>
+    <h2>starter plan</h2>
+    <p>per month</p>
+    <p>we collect review from our users so you can get an honest opinion
+         of what an experience with our website are really like!</p>
+         <button id="adarsh">start now</button>
+   </diV>
+   <diV>
+    <h2>business plan</h2>
+    <p>per month</p>
+    <p>we collect review from our users so you can get an honest opinion 
+        of what an experience with our website are really like!</p>
+        <button id="adarsh">start now</button>
+   </diV>
+   <diV>
+    <h2>premium plan</h2>
+    <p>per month</p>
+    <p>we collect review from our users so you can get an honest opinion of
+         what an experience with our website are really like!</p>
+         <button id="adarsh">start now</button>
+   </diV>
+    </div>
+    
+   </body>
+   </html>
